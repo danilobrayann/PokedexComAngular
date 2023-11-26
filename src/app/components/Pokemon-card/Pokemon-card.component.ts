@@ -2,14 +2,17 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-pokemon-list',
+  selector: 'app-pokemon-card',
   standalone: true,
   imports: [
     CommonModule,
   ],
-  template: `<p>pokemon-list works!</p>`,
-  templateUrl:'./pokemon-list.component.html'       ,
-  styleUrl: './pokemon-list.component.scss',
+  template: `<p>Pokemon-card works!</p>`,
+  templateUrl: 'Pokemon-card.component.html',
+  styleUrl: 'Pokemon-card.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PokemonListComponent { }
+export class PokemonCardComponent {
+
+
+ }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { PokemonListComponent } from "./pokemon-list/pokemon-list.component";
+import { PokemonListComponent } from "./components/pokemon-list/pokemon-list.component";
 
 @Component({
     selector: 'app-root',
